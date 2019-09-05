@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="style.css"/>
+        
+       
+
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="form-group">
+                <label>search</label>
+                <input class="form-control" id="search">
+                <div class="row text-center" id="search-out">
+                
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-5">
+            <div class="form-group">
+                <label>productName :</label>
+                <input class="form-control" id="product-name"/>
+                <div class="alert alert-danger mt-2" role="alert">you must enter the name right and increase than 3 letter</div>
+            </div>
+            <div class="form-group">
+                <label>productPrice :</label>
+                <input class="form-control" id="product-price"/>
+                <div class="alert alert-danger mt-2" role="alert">you must enter the price in number and don't increase 1000</div>
+            </div>
+            <div class="form-group">
+                <label>productCompany :</label>
+                <input class="form-control" id="product-company"/>
+                <div class="alert alert-danger mt-2" role="alert">you must enter the name right and increase than 3 letter</div>
+            </div>
+            <div class="form-group">
+                <label>productDescription :</label>
+                <textarea class="form-control" id="product-description"></textarea>
+            </div>
+            <div class="clearfix">
+                <button class="btn btn-dark float-right" id="work-button">add product</button>
+            </div>  
+        </div>
+              
+        
+        <div class="container mt-4 text-center">
+            <div class="row" id="all">
+
+            </div>
+        </div>
+        
+
+        <script src="js/jquery-3.4.1.min.js" ></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="work.js"></script>
+    </body>
+</html>
